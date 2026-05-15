@@ -138,11 +138,17 @@ celerybeat.pid
 .env
 .envrc
 .venv
-env/
 venv/
 ENV/
 env.bak/
 venv.bak/
+# NOTE: env/ is intentionally NOT ignored — it contains the RL environment package
+
+# IDE
+.idea/
+
+# Superpowers brainstorm sessions
+.superpowers/
 
 # Spyder project settings
 .spyderproject
